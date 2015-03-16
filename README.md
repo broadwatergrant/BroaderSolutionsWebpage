@@ -1,2 +1,0 @@
-# BPSWebpage
-Webpage for BroaderPharmacySolutions

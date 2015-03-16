@@ -1,0 +1,46 @@
+#headerLogo{
+	padding: 10px;
+	width: 1.25 * 150px;
+	height: 150px;
+}
+
+#brandLogo{
+	width: 1.25 * 45px;
+	height: 45px;
+	position: relative;
+	top: -12px;
+}
+
+.gNavbar{
+	border-radius: 0px;
+}
+
+.jumbotron{
+	text-align: right;
+	padding-right: 40px;
+	background-image:url("../img/defaultJumbotron.png");
+	background-position: right bottom;
+	height: 400px;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.jumbotron h1{
+	color: white;
+}
+
+.jumbotron p{
+	color: white;
+}
+
+.footer {
+	text-align: center;
+	padding-bottom: 20px;
+	background-color: #efefef;
+}
+
+.footer h3 {
+  font-family: Verdana;
+  font-size: 18px;
+  font-weight: bold;
+}
