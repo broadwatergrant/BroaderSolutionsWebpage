@@ -13,14 +13,13 @@
 
 .gNavbar{
 	border-radius: 0px;
+	background-color: #F2F2F2;
 }
 
 .jumbotron{
 	text-align: right;
-	padding-right: 40px;
 	background-image:url("../img/defaultJumbotron.png");
 	background-position: right bottom;
-	height: 400px;
 	background-repeat: no-repeat;
 	background-size: cover;
 }
@@ -36,7 +35,9 @@
 .footer {
 	text-align: center;
 	padding-bottom: 20px;
-	background-color: #efefef;
+	margin-top: 10px;
+	border-top: 1px solid #D7D7D7;
+	background-color: #F2F2F2;
 }
 
 .footer h3 {
