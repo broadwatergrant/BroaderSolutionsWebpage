@@ -1,12 +1,12 @@
 #headerLogo{
-	padding: 10px;
-	width: 1.5 * 150px;
-	height: 225px;
+	margin-top: -35px;
+	margin-left: -25px;
+	height: 325px;
 }
 
 #brandLogo{
-	width: 1.25 * 45px;
-	height: 45px;
+	width: 1.25 * 40px;
+	height: 40px;
 	position: relative;
 	top: -12px;
 }
@@ -18,31 +18,76 @@
 
 .gNavbar{
 	border-radius: 0px;
-	background-color: #F2F2F2;
+	background-color: #AD1221;
+	margin-bottom: -10px;
+	margin-top: -35px;
+	border: 1px solid black;//#1E1E65;
+	font-size: 18px;
+}
+
+p{
+	font-size: 18px;
+}
+
+h3{
+	font-weight: bold;
+	font-size: 28px;
+}
+
+#navLi{
+	color: white;
+}
+
+#navLiSelected{
+	Color: black;
 }
 
 .jumbotron{
 	text-align: right;
-	background-image:url("../img/defaultJumbotron.png");
-	background-position: right bottom;
-	background-repeat: no-repeat;
-	background-size: cover;
-}
-
-.jumbotron h1{
-	color: white;
+	
+	background: #2e3192; /* Old browsers */
+background: -moz-linear-gradient(left,  #2e3192 21%, #207cca 50%, #fcfcfc 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, right top, color-stop(21%,#2e3192), color-stop(50%,#207cca), color-stop(100%,#fcfcfc)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(left,  #2e3192 21%,#207cca 50%,#fcfcfc 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(left,  #2e3192 21%,#207cca 50%,#fcfcfc 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(left,  #2e3192 21%,#207cca 50%,#fcfcfc 100%); /* IE10+ */
+background: linear-gradient(to right,  #2e3192 21%,#207cca 50%,#fcfcfc 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2e3192', endColorstr='#fcfcfc',GradientType=1 ); /* IE6-9 */
 }
 
 .jumbotron p{
 	color: white;
 }
 
+#jumbotronInlinePhoto{
+	width: 600px;
+	height: 128px;
+}
+
 .footer {
 	text-align: center;
 	padding-bottom: 20px;
 	margin-top: 10px;
-	border-top: 1px solid #D7D7D7;
-	background-color: #F2F2F2;
+	border-top: 1px solid #AD1221;
+	background-color: #D4D6D7;//#F2F2F2;
+}
+
+.media-heading{
+	font-weight: bold;
+}
+
+.media p{
+	color: #737485;
+}
+
+.media-object{
+	width: 64px;
+	height: 64px;
+	margin-bottom: 10px;
+}
+
+.media #normalMediaText{
+	font-size: 16px;
 }
 
 .footer h3 {
